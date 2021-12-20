@@ -40,6 +40,7 @@ public class Parte2 {
     private static void imprimir(Map<String, Integer> sexoMasc, Map<String, Integer> sexoFem) {
         System.out.println("Grupo Masculino:");
         sexoMasc.keySet().stream().forEach(System.out::println);
+        System.out.println("\n================");
         System.out.println("Grupo Feminino:");
         sexoFem.keySet().stream().forEach(System.out::println);
     }
